@@ -24,7 +24,9 @@ $(call inherit-product, vendor/realme/bitra/bitra-vendor.mk)
 $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
 # API
-PRODUCT_SHIPPING_API_LEVEL := 30
+BOARD_API_LEVEL := 30
+BOARD_SHIPPING_API_LEVEL := $(BOARD_API_LEVEL)
+PRODUCT_SHIPPING_API_LEVEL := $(BOARD_API_LEVEL)
 
 # Audio
 PRODUCT_COPY_FILES += \
