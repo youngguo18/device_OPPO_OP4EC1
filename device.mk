@@ -20,6 +20,9 @@ $(call inherit-product, device/realme/sm8250-common/common.mk)
 # Inherit proprietary libraries
 $(call inherit-product, vendor/realme/bitra/bitra-vendor.mk)
 
+# Camera
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
