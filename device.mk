@@ -41,7 +41,8 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    android.hardware.audio.sounddose-vendor-impl
 
 # Opiss Cam
 $(call inherit-product, vendor/oplus/camera/opluscamera.mk)
