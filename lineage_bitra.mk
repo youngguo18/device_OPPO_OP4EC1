@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common bliss stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Opiss Cam
+TARGET_USES_OPLUS_CAMERA := true
+
 # Valid for core/full GAPPS (default=true)
 TARGET_USE_GOOGLE_TELEPHONY := false
 
