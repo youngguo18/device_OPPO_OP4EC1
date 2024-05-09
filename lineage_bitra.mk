@@ -21,9 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Matrixx stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Opiss Cam
-#TARGET_USES_OPLUS_CAMERA := true
-
 # Matrixx internal properties
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
@@ -37,19 +34,6 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 #GAPPS
 WITH_GMS := true
-
-#Extra Gapps
-BUILD_GOOGLE_CONTACTS := true
-BUILD_GOOGLE_DIALER := true
-BUILD_GOOGLE_MESSAGE := true
-
-# Matrixx
-MATRIXX_BUILD_TYPE := Unofficial
-MATRIXX_MAINTAINER := Arsalan_Zeus
-MATRIXX_CHIPSET := SM8250
-MATRIXX_BATTERY := 5000mAh
-MATRIXX_DISPLAY := 1080X2400
-TARGET_EXCLUDES_AUDIOFX := true
 
 # Enable extra UDFPS animations
 EXTRA_UDFPS_ANIMATIONS := true
