@@ -15,10 +15,10 @@
 #
 
 # Inherit from the common OEM chipset makefile.
-$(call inherit-product, device/realme/sm8250-common/common.mk)
+$(call inherit-product, device/OPPO/sm8250-common/common.mk)
 
 # Inherit proprietary libraries
-$(call inherit-product, vendor/realme/bitra/bitra-vendor.mk)
+$(call inherit-product, vendor/OPPO/OP4EC1/OP4EC1-vendor.mk)
 
 # Camera
 $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
@@ -53,4 +53,4 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/realme/bitra
+    device/OPPO/OP4EC1

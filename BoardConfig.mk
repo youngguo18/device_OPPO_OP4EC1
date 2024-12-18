@@ -15,12 +15,12 @@
 #
 
 # Include the common OEM chipset BoardConfig.
-include device/realme/sm8250-common/BoardConfigCommon.mk
+include device/OPPO/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/realme/bitra
+DEVICE_PATH := device/OPPO/OP4EC1
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RE5473,RE879AL1,bitra
+TARGET_OTA_ASSERT_DEVICE := OP4EC1,OP4F7FL1,OP4EA7
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

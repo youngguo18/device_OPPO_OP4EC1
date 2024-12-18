@@ -14,8 +14,8 @@ fi
 
 set -e
 
-export DEVICE=bitra
+export DEVICE=OP4EC1
 export DEVICE_COMMON=sm8250-common
-export VENDOR=realme
+export VENDOR=OPPO
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

@@ -90,7 +90,7 @@
     <ctl name="ADC4 Volume" value="12" />
     <ctl name="LPI Enable" value="0" />
     <ctl name="ADC2 Volume" value="12" />
-    <ctl name="ADC2 MUX" value="ZERO" />
+    <ctl name="ADC2 MUX" value="INP2" />
 
     <path name="listen-voice-wakeup-1">
         <ctl name="LSM1 Mixer VA_CDC_DMA_TX_0" value="1" />
@@ -255,8 +255,8 @@
         <ctl name="VA_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="VA DEC0 MUX" value="SWR_MIC" />
         <ctl name="VA DEC1 MUX" value="SWR_MIC" />
-        <ctl name="VA SMIC MUX0" value="ADC0" />
-        <ctl name="VA SMIC MUX1" value="ADC3" />
+        <ctl name="VA SMIC MUX0" value="ADC3" />
+        <ctl name="VA SMIC MUX1" value="ADC0" />
         <ctl name="ADC1 Volume" value="6" />
         <ctl name="ADC4 Volume" value="6" />
         <ctl name="ADC1_MIXER Switch" value="1" />

@@ -51,46 +51,105 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 
 # Camera
-odm/etc/camera/config/camera_unit_config
-odm/etc/camera/config/camera_unit_feature_config.protobuf
-odm/etc/camera/config/hi846
-odm/etc/camera/config/imx471
-odm/etc/camera/config/ov02b
-odm/etc/camera/config/s5kgw1
 odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/camera_engmode.xml
+odm/etc/camera/config/camera_unit_config
+odm/etc/camera/config/camera_unit_feature_config.protobuf
+odm/etc/camera/config/imx481
+odm/etc/camera/config/imx615
+odm/etc/camera/config/imx616
+odm/etc/camera/config/imx686
+odm/etc/camera/config/imx766
+odm/etc/camera/config/ov02b
+odm/etc/camera/config/s5k3m5
 odm/etc/camera/settings_fdc.txt
-odm/lib64/camera/com.qti.sensor.hi846.so
-odm/lib64/camera/com.qti.sensor.imx471.so
+odm/lib64/camera/com.qti.sensor.imx481.so
+odm/lib64/camera/com.qti.sensor.imx615.so
+odm/lib64/camera/com.qti.sensor.imx766.so
 odm/lib64/camera/com.qti.sensor.ov02b.so
-odm/lib64/camera/com.qti.sensor.s5kgw1.so
-odm/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin
+odm/lib64/camera/com.qti.sensor.s5k3m5.so
+odm/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin
+odm/lib64/camera/com.qti.sensormodule.qtech_imx615.bin
+odm/lib64/camera/com.qti.sensormodule.qtech_s5k3m5.bin
 odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
-odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin
-odm/lib64/camera/com.qti.sensormodule.truly_imx471_2169A.bin
-odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin
-odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin
-odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b.bin
-odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin
-odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471_2169A.bin
-odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin
+odm/lib64/camera/com.qti.sensormodule.sunny_imx766.bin
+odm/lib64/camera/com.qti.sensormodule.sunny_imx766_dvt.bin
+odm/lib64/camera/com.qti.tuned.sm8250_ofilm_imx481_20161.bin
+odm/lib64/camera/com.qti.tuned.sm8250_qtech_imx616_20161.bin
+odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5k3m5_20161.bin
+odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b10_20161.bin
+odm/lib64/camera/com.qti.tuned.sm8250_sunny_imx766_20161.bin
 
 # Charger firmware
-odm/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/136858/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/136859/oplus_vooc_fw_rk826.bin
-odm/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/20135/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin
+odm/firmware/fastchg/20351/oplus_vooc_fw_rt5125.bin
+odm/firmware/fastchg/charging_thermal_config_default.txt
 
 # Display calibration data
+vendor/etc/qdcm_calib_data_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_boe_nt37800_amoled_fhd+_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_nt36523_lcd_vid_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_nt36525_video_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_nt36672e_90Hz_fhd_plus_video_mode_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_120HZ_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_60HZ_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_90HZ_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_120HZ_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_60HZ_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_90HZ_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_cmd_mode_dsi_visionox_panel.xml
+vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_video_mode_dsi_visionox_panel.xml
+vendor/etc/qdcm_calib_data_samsung_amb655uv01_amoled_fhd+_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_samsung_amb655xl08_amoled_fhd+_panel.xml
+vendor/etc/qdcm_calib_data_samsung_amb655x_fhd_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_21623.xml
 vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_samsung_AMS678UW01_dsc_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_samsung_AMS678UW01_qhd_panel.xml
+vendor/etc/qdcm_calib_data_samsung_fhd_amoled.xml
+vendor/etc/qdcm_calib_data_samsung_S6E3HC3_dsc_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_samsung_SOFE03F_dsc_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_sharp_1080p_cmd_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml
+vendor/etc/qdcm_calib_data_sw43404_amoled_boe_fhd+_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_sw43404_amoled_cmd_mode_dsi_boe_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_sw43404_amoled_video_mode_dsi_boe_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_td4330_v2_cmd_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_td4330_v2_video_mode_dsi_truly_panel.xml
 
 # Display eye protection data
+odm/etc/samsung1024_amb655xl08_calibrate_eyeprotect_data.xml
+odm/etc/samsung1024_amb655xl08_eyeprotect_data.xml
+odm/etc/samsung1024_amb655xl08_srgb_calibrate_eyeprotect_data.xml
+odm/etc/samsung1024_amb655xl08_srgb_eyeprotect_data.xml
 odm/etc/samsung1024_ams662zs01_eyeprotect_data.xml
 odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml
 odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml
 odm/etc/samsung1024_ana6706_eyeprotect_data.xml
 odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml
+vendor/etc/ltm_config_19795_samsung_AMS678UW01_dsc_cmd_mode_panel.xml
+vendor/etc/ltm_config_samsung_amb655uv01_amoled_fhd+_panel_with_DSC.xml
+vendor/etc/ltm_config_samsung_amb655xl08_amoled_fhd+_panel.xml
+vendor/etc/ltm_config_samsung_amb655x_fhd_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_21623.xml
+vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml
+vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
+vendor/etc/ltm_config_samsung_AMS678UW01_dsc_cmd_mode_panel.xml
+vendor/etc/ltm_config_samsung_AMS678UW01_qhd_panel.xml
+vendor/etc/ltm_config_samsung_fhd_amoled.xml
+vendor/etc/ltm_config_samsung_S6E3HC3_dsc_cmd_mode_panel.xml
+vendor/etc/ltm_config_samsung_SOFE03F_dsc_cmd_mode_panel.xml
 
 # Fingerprint firmware
 odm/vendor/firmware/ancap64.b00
@@ -123,7 +182,7 @@ vendor/firmware/image/opluseid.mdt
 
 # Graphics (Adreno firmware)
 vendor/firmware/a650_gmu.bin
-vendor/firmware/a650_sqe.fw|a011deb174929b874fb668d7c8041cfb712b6417
+vendor/firmware/a650_sqe.fw
 vendor/firmware/a650_zap.b00
 vendor/firmware/a650_zap.b01
 vendor/firmware/a650_zap.b02
@@ -158,9 +217,12 @@ odm/etc/sensor/config/kona_qrd_sx933x_0.json
 odm/etc/sensor/sensor_config.json
 
 # Touchscreen firmware
-odm/firmware/tp/21619/FW_S3908_SAMSUNG.img
-odm/firmware/tp/21619/FW_S3908_SAMSUNG_FAE.img
-odm/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img
+odm/firmware/tp/20135/FW_S6SY792_SAMSUNG.bin
+odm/firmware/tp/20135/FW_S6SY792_SAMSUNG_FAE.bin
+odm/firmware/tp/20135/LIMIT_S6SY792_SAMSUNG.img
+odm/firmware/tp/20161/FW_S6SY792_SAMSUNG.bin
+odm/firmware/tp/20161/FW_S6SY792_SAMSUNG_FAE.bin
+odm/firmware/tp/20161/LIMIT_S6SY792_SAMSUNG.img
 
 # Wifi
 odm/etc/wifi/bdwlan.elf
