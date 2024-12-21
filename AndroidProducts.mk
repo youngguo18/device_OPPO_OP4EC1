@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_OP4EC1.mk
+    $(LOCAL_DIR)/derp_OP4EC1.mk

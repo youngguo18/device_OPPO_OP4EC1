@@ -21,7 +21,7 @@ $(call inherit-product, device/OPPO/sm8250-common/common.mk)
 $(call inherit-product, vendor/OPPO/OP4EC1/OP4EC1-vendor.mk)
 
 # Camera
-$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+#$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \

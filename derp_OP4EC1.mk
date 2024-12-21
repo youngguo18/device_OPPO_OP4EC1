@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Matrixx stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Matrixx internal properties
 TARGET_HAS_UDFPS := true
@@ -42,7 +42,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_OP4EC1
+PRODUCT_NAME := derp_OP4EC1
 PRODUCT_DEVICE := OP4EC1
 PRODUCT_BRAND := OPPO
 PRODUCT_MODEL := PENM00
