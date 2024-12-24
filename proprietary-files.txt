@@ -189,6 +189,31 @@ vendor/firmware/a650_zap.b02
 vendor/firmware/a650_zap.elf
 vendor/firmware/a650_zap.mdt
 
+# Iris
+odm/etc/inparm/irissoft/inParm.lst
+odm/etc/inparm/irissoft/inParm1.txt
+odm/etc/inparm/irissoft/inParm2.txt
+odm/etc/inparm/irissoft/inParm3.txt
+odm/etc/inparm/irissoft/inParm4.txt
+odm/etc/inparm/irissoft/inParm5.txt
+odm/etc/inparm/irissoft/inParm6.txt
+odm/etc/inparm/irissoft/inParm7.txt
+odm/etc/inparm/irissoft/inParm8.txt
+odm/etc/inparm/irissoft/inParm9.txt
+odm/etc/inparm/irissoft/inParm10.txt
+odm/etc/inparm/irissoft/inParm11.txt
+odm/etc/inparm/irissoft/inParm12.txt
+odm/etc/inparm/irissoft/inParm13.txt
+odm/etc/inparm/irissoft/inParm13_low.txt
+odm/etc/inparm/irissoft/inParm14.txt
+odm/etc/inparm/irissoft/inParm14_low.txt
+odm/etc/inparm/irissoft/inParm15.txt
+odm/etc/inparm/irissoft/inParm15_low.txt
+odm/etc/inparm/irissoft/inParm16.txt
+odm/etc/inparm/irissoft/inParm17.txt
+odm/etc/inparm/irissoft/inParm18.txt
+odm/etc/inparm/irissoft/mcfCheck.txt
+
 # IPA firmware
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
