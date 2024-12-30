@@ -45,7 +45,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_NAME := derp_OP4EC1
 PRODUCT_DEVICE := OP4EC1
 PRODUCT_BRAND := OPPO
-PRODUCT_MODEL := PENM00
+PRODUCT_MODEL := OPPO Reno6 Pro+ 5G
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
@@ -53,6 +53,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="PENM00-user 13 TP1A.220905.001 R.18dbd80_2_1 release-keys" \
     BuildFingerprint="OPPO/PENM00/OP4EC1:13/TP1A.220905.001/R.18dbd80_2_1:user/release-keys" \
     DeviceName=OP4EC1 \
-    DeviceProduct=PENM00 \
-    SystemDevice=PENM00 \
-    SystemName=PENM00
+    DeviceProduct=OPPO Reno6 Pro+ 5G \
+    SystemDevice=OPPO Reno6 Pro+ 5G \
+    SystemName=OPPO Reno6 Pro+ 5G
